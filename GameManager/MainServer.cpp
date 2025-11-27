@@ -17,6 +17,7 @@ void MainServer::RunServer(){
     closesocket(MainSocket);
     closesocket(PlayerSockets[0]);
     closesocket(PlayerSockets[1]);
+    WSACleanup();
 }
 
 MainServer::MainServer(){

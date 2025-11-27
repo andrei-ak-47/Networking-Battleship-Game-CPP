@@ -9,6 +9,7 @@ void Player::Run(){
     runGame();
     
     closesocket(PlayerSocket);
+    WSACleanup();
 }
 
 Player::Player(int id) : PlayerID(id){
