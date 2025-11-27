@@ -1,0 +1,5 @@
+Main Server: g++ -o Server.exe MainServer.cpp ../ExtraClasses.cpp RunServer.cpp -lws2_32 -std=c++20
+P1: g++ -o P1.exe Player.cpp ../ExtraClasses.cpp RunP1.cpp -lws2_32 -std=c++20
+P2: g++ -o P2.exe Player.cpp ../ExtraClasses.cpp RunP2.cpp -lws2_32 -std=c++20
+
+IMPORTANT: Include correct directory
