@@ -13,6 +13,10 @@ void MainServer::RunServer(){
     Sleep(1000);
 
     RunGame();
+
+    closesocket(MainSocket);
+    closesocket(PlayerSockets[0]);
+    closesocket(PlayerSockets[1]);
 }
 
 MainServer::MainServer(){

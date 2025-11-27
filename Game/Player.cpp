@@ -7,6 +7,8 @@ void Player::Run(){
     Setup();
     //SETUP SHOULD BE DONE
     runGame();
+    
+    closesocket(PlayerSocket);
 }
 
 Player::Player(int id) : PlayerID(id){
